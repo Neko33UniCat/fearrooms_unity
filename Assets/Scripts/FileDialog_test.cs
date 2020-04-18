@@ -90,7 +90,7 @@ public class FileDialog_test : MonoBehaviour
 
         //モデルをワールド上に配置します
         root.transform.position = new Vector3(0, 0, 0);
-        root.transform.Rotate(new Vector3(0, 0, 0));
+        root.transform.Rotate(new Vector3(0, 180, 0));
         Character = root;
         //メッシュを表示します
         context.ShowMeshes();
